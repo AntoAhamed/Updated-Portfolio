@@ -34,7 +34,7 @@ function Navbar() {
 
     return (
         <>
-            <div className='px-52 border bg-white'>
+            <div className='lg:px-56 md:px-4 border bg-white'>
                 <div>
                     <img src={cover} alt='Cover' className='rounded-b-lg' />
                 </div>
@@ -47,7 +47,7 @@ function Navbar() {
                                 <p className='text-lg text-gray-500'>Passionate Software Developer (MERN)</p>
                             </div>
                         </div>
-                        <div className='flex lg:justify-end md:justify-center items-end md:my-3'>
+                        <div className='flex lg:justify-end sm:justify-center items-end md:my-3'>
                             <div className='mr-3'>
                                 <Button variant='contained' sx={{ bgcolor: '#1a53ff', fontWeight: '600' }}>
                                     <FileCopyIcon />
@@ -122,7 +122,7 @@ function Navbar() {
                 </div>
             </div>
 
-            <div className='px-56 py-4'>
+            <div className='lg:px-56 md:px-4 py-4'>
                 <Outlet />
             </div>
 
