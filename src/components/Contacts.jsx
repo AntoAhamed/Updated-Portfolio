@@ -15,15 +15,15 @@ function Contacts() {
                 </div>
                 <div className='grid lg:grid-cols-3 md:grid-cols-1 mb-5'>
                     <div className='flex flex-col items-center hover:bg-gray-100 rounded-lg py-2'>
-                        <PhoneAndroidIcon fontSize='large' sx={{ color: 'gray' }} />
+                        <PhoneAndroidIcon fontSize='large' sx={{ color: '#6663C6' }} />
                         <span>+8801876678984</span>
                     </div>
                     <div className='flex flex-col items-center hover:bg-gray-100 rounded-lg py-2'>
-                        <EmailIcon fontSize='large' sx={{ color: 'gray' }} />
+                        <EmailIcon fontSize='large' sx={{ color: '#6663C6' }} />
                         <span>mdnazirulmobinahamed@gmail.com</span>
                     </div>
                     <div className='flex flex-col items-center hover:bg-gray-100 rounded-lg py-2'>
-                        <LocationOnIcon fontSize='large' sx={{ color: 'gray' }} />
+                        <LocationOnIcon fontSize='large' sx={{ color: '#6663C6' }} />
                         <span>Dhaka, Bangladesh</span>
                     </div>
                 </div>

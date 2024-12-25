@@ -70,27 +70,6 @@ function Home() {
       </div>
 
       <div>
-        {/*<div className='font-semibold'>
-          <TypeAnimation
-            sequence={[
-              // Same substring at the start will only be typed out once, initially
-              'Hello, I am Md. Nazirul Mobin Ahamed',
-              1000, // wait 1s before replacing "Mice" with "Hamsters"
-              'I am a passionate software developer',
-              1000,
-              'I have experience with real world MERN stack applications like',
-              1000,
-              'Ecommerce website and Social Media website etc.',
-              1000,
-              'If you are interested then feel free to reach me',
-              1000
-            ]}
-            wrapper="span"
-            speed={50}
-            style={{ fontSize: '1.5em', display: 'inline-block' }}
-            repeat={Infinity}
-          />
-        </div>*/}
         <div className='border rounded-lg bg-white p-3 mb-4'>
           <div className='flex border-b pb-3'>
             <img src={user} alt='User' width={'7.5%'} style={{ borderRadius: '50%', border: '1px solid gray' }} />
@@ -128,7 +107,7 @@ function Home() {
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 'I am a passionate software developer',
                 1000,
-                'I have experience with real world MERN stack applications like',
+                'I have experience with real world MERN stack applications like...',
                 1000,
                 'Ecommerce website and Social Media website etc.',
                 1000,

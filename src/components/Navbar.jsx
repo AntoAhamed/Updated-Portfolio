@@ -40,18 +40,18 @@ function Navbar() {
                 </div>
                 <div className='px-5'>
                     <div className='grid lg:grid-cols-2 md:grid-cols-1 border-b py-2'>
-                        <div className='flex lg:flex-row items-center md:justify-center md:flex-col'>
+                        <div className='flex lg:flex-row items-center md:justify-center md:flex-col sm:flex-col'>
                             <img src={user} alt='User' width={'25%'} style={{ borderRadius: '50%' }} className='border-4 mr-1' />
                             <div>
                                 <p className='text-3xl font-bold mb-2'>Md. Nazirul Mobin Ahamed</p>
-                                <p className='text-lg text-gray-500'>Passionate Software Developer (MERN)</p>
+                                <p className='text-gray-500'>Passionate Software Developer (MERN)</p>
                             </div>
                         </div>
                         <div className='flex lg:justify-end sm:justify-center items-end md:my-3'>
                             <div className='mr-3'>
                                 <Button variant='contained' sx={{ bgcolor: '#1a53ff', fontWeight: '600' }}>
                                     <FileCopyIcon />
-                                    <span className='ml-1'>Download Resume</span>
+                                    <span className='ml-1'><a href='https://drive.google.com/file/d/1R6sYsuBHzBTubpJ7amUPs4EZSrvmpjup/view?usp=sharing' target='_blank'>Download Resume</a></span>
                                 </Button>
                             </div>
                             <div>

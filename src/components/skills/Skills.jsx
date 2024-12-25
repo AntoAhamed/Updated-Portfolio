@@ -28,7 +28,7 @@ function Skills() {
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-1 border rounded-lg bg-white">
       {/* Sidebar */}
-      <div className="lg:border-r-2 lg:border-b-0 md:border-b-2 p-5">
+      <div className="lg:border-r-2 lg:border-b-0 md:border-b-2 sm:border-b-2 p-5">
         <p className="text-xl font-bold mb-3">Skills</p>
         <p
           className={`font-semibold mb-3 cursor-pointer ${activeComponent === "Expertise" ? "text-blue-500 bg-blue-100 p-2 rounded-lg" : "text-gray-500 hover:text-blue-400"

@@ -7,6 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import PersonIcon from '@mui/icons-material/Person';
 import CakeIcon from '@mui/icons-material/Cake';
 import GTranslateIcon from '@mui/icons-material/GTranslate';
+import LanguageIcon from '@mui/icons-material/Language';
 
 function ContactAndBasicInfo() {
   return (
@@ -28,27 +29,51 @@ function ContactAndBasicInfo() {
       </div>
 
       <h1 className='text-lg font-semibold mb-2'>Websites and social links</h1>
-      <div className='flex items-center mb-3'>
-        <LinkedInIcon fontSize='medium' sx={{ color: 'gray' }} />
-        <div className='ml-3'>
-          <p>https://www.linkedin.com/in/nazirulmobin</p>
-          <p className='text-sm text-gray-500'>Linkedin</p>
+      <a href='https://www.linkedin.com/in/nazirulmobin' target='_blank'>
+        <div className='flex items-center mb-3'>
+          <LinkedInIcon fontSize='medium' sx={{ color: 'gray' }} />
+          <div className='ml-3'>
+            <p>https://www.linkedin.com/in/nazirulmobin</p>
+            <p className='text-sm text-gray-500'>Linkedin</p>
+          </div>
         </div>
-      </div>
-      <div className='flex items-center mb-3'>
-        <GitHubIcon fontSize='medium' sx={{ color: 'gray' }} />
-        <div className='ml-3'>
-          <p>https://github.com/AntoAhamed</p>
-          <p className='text-sm text-gray-500'>Github</p>
+      </a>
+      <a href='https://github.com/AntoAhamed' target='_blank'>
+        <div className='flex items-center mb-3'>
+          <GitHubIcon fontSize='medium' sx={{ color: 'gray' }} />
+          <div className='ml-3'>
+            <p>https://github.com/AntoAhamed</p>
+            <p className='text-sm text-gray-500'>Github</p>
+          </div>
         </div>
-      </div>
-      <div className='flex items-center mb-5'>
-        <FacebookIcon fontSize='medium' sx={{ color: 'gray' }} />
-        <div className='ml-3'>
-          <p>Anto Ahamed</p>
-          <p className='text-sm text-gray-500'>Facebook</p>
+      </a>
+      <a href='https://www.facebook.com/profile.php?id=100006235186089' target='_blank'>
+        <div className='flex items-center mb-5'>
+          <FacebookIcon fontSize='medium' sx={{ color: 'gray' }} />
+          <div className='ml-3'>
+            <p>Anto Ahamed</p>
+            <p className='text-sm text-gray-500'>Facebook</p>
+          </div>
         </div>
-      </div>
+      </a>
+      <a href='https://www.beecrowd.com.br/judge/en/profile/394069' target='_blank'>
+        <div className='flex items-center mb-5'>
+          <LanguageIcon fontSize='medium' sx={{ color: 'gray' }} />
+          <div className='ml-3'>
+            <p>Anto_Ahamed007</p>
+            <p className='text-sm text-gray-500'>Beecrowd</p>
+          </div>
+        </div>
+      </a>
+      <a href='https://codeforces.com/profile/Anto_A01' target='_blank'>
+        <div className='flex items-center mb-5'>
+          <LanguageIcon fontSize='medium' sx={{ color: 'gray' }} />
+          <div className='ml-3'>
+            <p>Anto_A01</p>
+            <p className='text-sm text-gray-500'>Codeforces</p>
+          </div>
+        </div>
+      </a>
 
       <h1 className='text-lg font-semibold mb-2'>Basic info</h1>
       <div className='flex items-center mb-3'>

@@ -7,9 +7,11 @@ import CardActionArea from '@mui/material/CardActionArea';
 import Demo from '../../assets/project_demo.jpg'
 import { Button } from '@mui/material';
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
+  const { project } = props
+
   return (
-    <Card sx={{ maxWidth: 450, justifySelf: 'center' }}>
+    <Card sx={{ maxWidth: '100%', justifySelf: 'center' }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -19,15 +21,21 @@ export default function ProjectCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            {project.title}
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            {project.description}
           </Typography>
-          <Typography component="div" sx={{margin: '16px 0'}}>
-            <Button variant='contained' size='small' sx={{marginRight: '8px', bgcolor: '#1a53ff'}}>View Project</Button>
-            <Button variant='outlined' size='small' sx={{color: '#1a53ff', borderColor: '#1a53ff'}}>Source Code</Button>
+          <Typography variant="body2" sx={{ marginTop: '8px', color: 'text.secondary' }}>
+            {project.tech_used}
+          </Typography>
+          <Typography component="div" sx={{ margin: '16px 0' }}>
+            <a href={project.live_url} target='_blank'>
+              <Button variant='contained' size='small' sx={{ marginRight: '8px', bgcolor: '#1a53ff' }}>View Project</Button>
+            </a>
+            <a href={project.source_code_url} target='_blank'>
+              <Button variant='outlined' size='small' sx={{ color: '#1a53ff', borderColor: '#1a53ff' }}>Source Code</Button>
+            </a>
           </Typography>
         </CardContent>
       </CardActionArea>
