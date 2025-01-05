@@ -5,7 +5,23 @@ function Projects() {
   const projects = [
     {
       image: "",
-      title: "ToolBox",
+      title: "Smart Ecommerce (MERN Application)",
+      description: "This is a MERN stack ecommerce web application.",
+      tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Tailwind CSS | Material UI | React | Node | Express | MongoDB | Redux Toolkit | JWT Auth | Express Validator | Axios | RESTful API",
+      live_url: "https://smart-ecommerce-2025.vercel.app",
+      source_code_url: "https://github.com/AntoAhamed/Ecommerce",
+    },
+    {
+      image: "",
+      title: "Outstagram (MERN Application)",
+      description: "This is a MERN stack social media web application.",
+      tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Tailwind CSS | Material UI | React | Node | Express | MongoDB | Redux Toolkit | JWT Auth | Express Validator | Axios | RESTful API",
+      live_url: "https://outstagram-socialmedia.vercel.app",
+      source_code_url: "https://github.com/AntoAhamed/socialmedia",
+    },
+    {
+      image: "",
+      title: "ToolBox (React Application)",
       description: "This is such an web application where users can find out many useful things in one place like notepad, reminder, to-do list, alarm, weather, stopwatch, calculators etc. It has so many more features including some mind refreshing games and a user profile with dashboard.",
       tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React | React Router | Third Party APIs | local Storage",
       live_url: "https://tool-box-plus.vercel.app",
@@ -13,7 +29,7 @@ function Projects() {
     },
     {
       image: "",
-      title: "AI Desktop Assistant",
+      title: "AI Desktop Assistant (Desktop Application)",
       description: "An AI based system assistant software for pc where users can give voice command to control their system. It uses OpenAI api for text generation and has so many features.",
       tech_used: "Tech Used: Python | Packages including custom packages",
       live_url: "https://www.linkedin.com/posts/nazirulmobin_artificialintelligence-ai-techjourney-activity-7214629856246972417-rrRu?utm_source=share&utm_medium=member_desktop",
@@ -21,7 +37,7 @@ function Projects() {
     },
     {
       image: "",
-      title: "Daily Weather",
+      title: "Daily Weather (JS Application)",
       description: "This web application displays current weather, 24 hour forecast and 7 day forecast. It's built with HTML5, CSS3, and JavaScript, focusing on clean design, user-friendly features, and seamless integration with the API.",
       tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Weather API",
       live_url: "https://daily-weather-iota.vercel.app",
@@ -29,7 +45,7 @@ function Projects() {
     },
     {
       image: "",
-      title: "Awesome Gaming Gallery 2024",
+      title: "Awesome Gaming Gallery 2024 (React Application)",
       description: "This is a react application which is an image gallery where users can set an image as a featured image, sort images by drag and drop and also can delete multiple images at a time.",
       tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js",
       live_url: "https://awesome-gallery-six.vercel.app",
@@ -37,7 +53,7 @@ function Projects() {
     },
     {
       image: "",
-      title: "NoteBook",
+      title: "NoteBook (React Application)",
       description: "This is a notebook web application with some awesome features. User can easily add, edit and remove their notes. Users will be able to review their notes in real-time.",
       tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js | React Router",
       live_url: "https://notebook-nine.vercel.app",
@@ -45,7 +61,7 @@ function Projects() {
     },
     {
       image: "",
-      title: "Collabify",
+      title: "Collabify (React Application)",
       description: "This is a collaborative task management system. By using this app, users can create teams, assign tasks to the teams and join others to the teams. Every tasks have their priority, status and due date. Team members can change task status any time.",
       tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js | React Router",
       live_url: "https://collaborative-task-management-app-five.vercel.app",
@@ -53,7 +69,7 @@ function Projects() {
     },
     {
       image: "",
-      title: "EazyCanteen",
+      title: "EazyCanteen (Full Stack Web Application)",
       description: "It was our university final year project. In this project, users can enjoy a seamless food ordering process. It incorporates a virtual points system, enabling cashless transactions. It featured with Centralized menu management and many more.",
       tech_used: "Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | jQuery | PHP | MySQL",
       live_url: "https://github.com/AntoAhamed/Canteen-Management",
