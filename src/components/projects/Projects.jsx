@@ -6,7 +6,7 @@ function Projects() {
     {
       image: "",
       title: "Smart Ecommerce (MERN Application)",
-      description: "This is a MERN stack ecommerce web application.",
+      description: "This is a ecommerce web app where users can buy filter and order products by creating accounts. They can also give ratings to products and manage their orders. It also contains an admin panel with dashboard to maintain the whole system.",
       tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Tailwind CSS | Material UI | React | Node | Express | MongoDB | Redux Toolkit | JWT Auth | Express Validator | Axios | RESTful API",
       live_url: "https://smart-ecommerce-2025.vercel.app",
       source_code_url: "https://github.com/AntoAhamed/Ecommerce",
@@ -14,7 +14,7 @@ function Projects() {
     {
       image: "",
       title: "Outstagram (MERN Application)",
-      description: "This is a MERN stack social media web application.",
+      description: "This is a social media web app where users can post, like, comment, share and many more with their accounts. They can also follow and unfollow others to manage their own newsfeeds.",
       tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Tailwind CSS | Material UI | React | Node | Express | MongoDB | Redux Toolkit | JWT Auth | Express Validator | Axios | RESTful API",
       live_url: "https://outstagram-socialmedia.vercel.app",
       source_code_url: "https://github.com/AntoAhamed/socialmedia",

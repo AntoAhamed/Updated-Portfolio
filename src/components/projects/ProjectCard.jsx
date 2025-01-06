@@ -23,7 +23,7 @@ export default function ProjectCard(props) {
           <Typography gutterBottom variant="h5" component="div">
             {project.title}
           </Typography>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+          <Typography variant="body2" sx={{ fontSize: '17px' }}>
             {project.description}
           </Typography>
           <Typography variant="body2" sx={{ marginTop: '8px', color: 'text.secondary' }}>
