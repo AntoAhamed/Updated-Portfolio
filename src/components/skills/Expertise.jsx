@@ -14,11 +14,11 @@ function Expertise() {
       </div>
       <div className='flex mb-3'>
         <CheckIcon sx={{ color: 'gray' }} />
-        <p className='ml-2'>Git | GitHub | Context API | React Router | Redux Toolkit | NPM | Axios</p>
+        <p className='ml-2'>Git | GitHub | Context API | React Router | Redux Toolkit | NPM | Axios | Express Validator</p>
       </div>
       <div className='flex mb-3'>
         <CheckIcon sx={{ color: 'gray' }} />
-        <p className='ml-2'>JSON | RESTful API | CRUD | JWT | DSA | OOP | Vercel</p>
+        <p className='ml-2'>JSON | RESTful API | CRUD | JWT | DSA | OOP | Vercel | Render</p>
       </div>
     </div>
   )

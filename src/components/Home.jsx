@@ -72,7 +72,7 @@ function Home() {
       <div>
         <div className='border rounded-lg bg-white p-3 mb-4'>
           <div className='flex border-b pb-3'>
-            <img src={user} alt='User' width={'7.5%'} style={{ borderRadius: '50%', border: '1px solid gray' }} />
+            <img src={user} alt='User' className='w-12 h-12 rounded-full border' />
             <input type='text' className='bg-gray-200 hover:bg-gray-300 w-full ml-3 text-lg pl-3 rounded-full cursor-pointer' disabled placeholder='Write something to Md. Nazirul...' />
           </div>
           <div className='grid grid-cols-3 pt-3'>
@@ -93,7 +93,7 @@ function Home() {
 
         <div className='border rounded-lg bg-white p-3'>
           <div className='flex pb-3'>
-            <img src={user} alt='User' width={'7.5%'} style={{ borderRadius: '50%', border: '1px solid gray' }} />
+            <img src={user} alt='User' className='w-12 h-12 rounded-full border' />
             <div className='ml-3'>
               <p className='font-semibold'>Md. Nazirul Mobin Ahamed</p>
               <p className='text-gray-500 font-semibold' style={{ fontSize: '12px' }}>December 1 of 2025 at 12:01 AM</p>
