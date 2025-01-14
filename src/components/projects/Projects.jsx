@@ -7,6 +7,8 @@ import SE4 from '../../assets/project ss/SE4.jpeg'
 import SE5 from '../../assets/project ss/SE5.jpeg'
 import SE6 from '../../assets/project ss/SE6.jpeg'
 import SE7 from '../../assets/project ss/SE7.jpeg'
+import SE8 from '../../assets/project ss/SE8.jpeg'
+import SE9 from '../../assets/project ss/SE9.jpeg'
 import SM1 from '../../assets/project ss/SM1.jpeg'
 import SM2 from '../../assets/project ss/SM2.jpeg'
 import SM3 from '../../assets/project ss/SM3.jpeg'
@@ -46,7 +48,7 @@ import GG from '../../assets/project ss/GG.jpeg'
 function Projects() {
   const projects = [
     {
-      images: [SE1, SE2, SE3, SE4, SE5, SE6, SE7],
+      images: [SE1, SE2, SE3, SE4, SE5, SE6, SE7, SE8, SE9],
       title: "Smart Ecommerce (MERN Application)",
       description: "Designed and developed a robust e-commerce web application using the MERN stack, featuring user authentication, product filtering, and order placement. Implemented functionality for users to rate products and manage their orders efficiently. Integrated a comprehensive admin panel with a dashboard to oversee and manage the entire system seamlessly.",
       tech_used: "Tech Used: HTML5 | CSS3 | JavaScript | Tailwind CSS | Material UI | React | Node | Express | MongoDB | Redux Toolkit | JWT Auth | Express Validator | Axios | RESTful API",
