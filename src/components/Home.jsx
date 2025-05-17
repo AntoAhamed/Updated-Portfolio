@@ -32,7 +32,7 @@ function Home() {
         <div className='border rounded-lg bg-white p-5'>
           <p className='text-xl font-bold mb-3'>Intro</p>
           <p className='text-center border-b-2 pb-3 mb-3'>
-            Self-learner | Problem Solver | MERN Stack Dev
+            Competitive Programmer | Problem Solver | Self Learner | MERN Stack Dev
           </p>
           <div className='flex mb-3'>
             <BusinessCenterIcon sx={{ color: 'gray' }} />

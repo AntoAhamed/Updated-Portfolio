@@ -26,7 +26,7 @@ function Navbar() {
                             <img src={user} alt='User' className='w-32 h-32 rounded-full border-4 mr-1' />
                             <div>
                                 <p className='text-3xl font-bold mb-2'>Md. Nazirul Mobin Ahamed</p>
-                                <p className='text-gray-500'>Passionate Software Developer (MERN)</p>
+                                <p className='text-gray-500'>Software Engineer</p>
                             </div>
                         </div>
                         <div className='flex lg:justify-end justify-center items-end lg:my-0 md:my-1 my-3'>
@@ -84,6 +84,13 @@ function Navbar() {
                                     onClick={() => { setActiveComponent("projects"); toggleDropdown(); }}
                                 >
                                     Projects
+                                </li>
+                            </Link>
+                            <Link to='/problem-solving'>
+                                <li className={`py-3 px-5 hover:bg-slate-100 rounded-md ${activeComponent === "problem-solving" ? "text-blue-600 border-b-4 border-b-blue-600 rounded-sm hover:bg-white" : "text-gray-500"}`}
+                                    onClick={() => { setActiveComponent("problem solving"); toggleDropdown(); }}
+                                >
+                                    Problem Solving
                                 </li>
                             </Link>
                             <Link to='/achivements'>

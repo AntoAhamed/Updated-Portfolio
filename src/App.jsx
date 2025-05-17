@@ -10,6 +10,7 @@ import Achivements from './components/Achivements';
 import Experiences from './components/Experiences';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
+import ProblemSolving from './components/ProblemSolving';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/education' element={<Education />} />
             <Route path='/skills' element={<Skills />} />
             <Route path='/projects' element={<Projects />} />
+            <Route path='/problem-solving' element={<ProblemSolving />} />
             <Route path='/achivements' element={<Achivements />} />
             <Route path='/experiences' element={<Experiences />} />
             <Route path='/contacts' element={<Contacts />} />

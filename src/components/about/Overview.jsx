@@ -10,7 +10,7 @@ function Overview() {
     <div className='flex flex-col'>
       <div className='flex mb-5'>
         <p>
-          <span className='text-3xl'>I</span>n the past few years, I built some software projects. I have learned some programming languages (specially c++), OOP concepts and DSA. I did problem solving in different online sites. I also participated in a number of online and offline programming contests. I want to join an organization where I can apply my knowledge in developing web applications using various technologies such as HTML5, CSS3, JavaScript and other programming languages. Recently I have completed some MERN stack projects with real world features. Now I am learning React Native.
+          <span className='text-3xl'>I</span>n the past few years, I built some software projects. I have learned some programming languages (specially c++), OOP concepts and DSA. I did problem solving in different online sites. I also participated in a number of online and offline programming contests. I want to join an organization where I can apply my knowledge in developing web applications using various technologies such as HTML5, CSS3, JavaScript and other programming languages. Recently I have completed some MERN stack projects with real world features.
         </p>
       </div>
       <div className='flex mb-3'>

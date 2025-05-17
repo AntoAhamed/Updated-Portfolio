@@ -6,7 +6,7 @@ function Comfortable() {
     <div className='flex flex-col'>
       <div className='flex mb-3'>
         <CheckIcon sx={{ color: 'gray' }} />
-        <p className='ml-2'>PHP | React Native | React Native Paper</p>
+        <p className='ml-2'>PHP | React Native | React Native Paper | NEXT</p>
       </div>
     </div>
   )
