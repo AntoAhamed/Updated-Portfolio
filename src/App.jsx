@@ -11,27 +11,30 @@ import Experiences from './components/Experiences';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import ProblemSolving from './components/ProblemSolving';
+import { useState } from 'react';
 
 function App() {
+  const [dark, setDark] = useState(true);
+
   return (
-    <div className="App bg-gray-100">
+    <div className={`App ${dark ? 'bg-gray-700' : 'bg-gray-100'} `}>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Navbar />}>
-            <Route index element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/education' element={<Education />} />
-            <Route path='/skills' element={<Skills />} />
-            <Route path='/projects' element={<Projects />} />
-            <Route path='/problem-solving' element={<ProblemSolving />} />
-            <Route path='/achivements' element={<Achivements />} />
-            <Route path='/experiences' element={<Experiences />} />
-            <Route path='/contacts' element={<Contacts />} />
+          <Route path='/' element={<Navbar dark={dark} setDark={setDark} />}>
+            <Route index element={<Home dark={dark} />} />
+            <Route path='/about' element={<About dark={dark} />} />
+            <Route path='/education' element={<Education dark={dark} />} />
+            <Route path='/skills' element={<Skills dark={dark} />} />
+            <Route path='/projects' element={<Projects dark={dark} />} />
+            <Route path='/problem-solving' element={<ProblemSolving dark={dark} />} />
+            <Route path='/achivements' element={<Achivements dark={dark} />} />
+            <Route path='/experiences' element={<Experiences dark={dark} />} />
+            <Route path='/contacts' element={<Contacts dark={dark} />} />
           </Route>
         </Routes>
       </BrowserRouter>
 
-      <Footer />
+      <Footer dark={dark} />
     </div>
   );
 }

@@ -17,11 +17,13 @@ import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 import CommentIcon from '@mui/icons-material/Comment';
 import ShareIcon from '@mui/icons-material/Share';
 
-function Home() {
+function Home(props) {
+  const { dark } = props;
+
   return (
     <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
       <div>
-        <div className='flex items-center font-semibold border rounded-lg bg-white p-5 mb-4'>
+        <div className={`flex items-center font-semibold border rounded-lg ${dark ? 'text-white' : 'bg-white'} p-5 mb-4 shadow-md shadow-purple-300`}>
           <RecommendIcon fontSize='large' sx={{ color: '#0066ff' }} />
           <div className='ml-3'>
             <p className='text-lg'>Welcome To My Portfolio Everyone</p>
@@ -29,7 +31,7 @@ function Home() {
           </div>
         </div>
 
-        <div className='border rounded-lg bg-white p-5'>
+        <div className={`border rounded-lg ${dark ? 'text-white' : 'bg-white'} p-5 shadow-md shadow-purple-300`}>
           <p className='text-xl font-bold mb-3'>Intro</p>
           <p className='text-center border-b-2 pb-3 mb-3'>
             Competitive Programmer | Problem Solver | Self Learner | MERN Stack Dev
@@ -70,28 +72,28 @@ function Home() {
       </div>
 
       <div>
-        <div className='border rounded-lg bg-white p-3 mb-4'>
+        <div className={`border rounded-lg ${dark ? 'text-white' : 'bg-white'} p-3 mb-4 shadow-md shadow-purple-300`}>
           <div className='flex border-b pb-3'>
             <img src={user} alt='User' className='w-12 h-12 rounded-full border' />
             <input type='text' className='bg-gray-200 hover:bg-gray-300 w-full ml-3 text-lg pl-3 rounded-full cursor-pointer' disabled placeholder='Write something to Md. Nazirul...' />
           </div>
           <div className='grid grid-cols-3 pt-3'>
-            <div className='flex  justify-center cursor-pointer hover:bg-gray-200 p-2 rounded w-full'>
+            <div className={`flex  justify-center cursor-pointer ${dark && 'hover:text-gray-800'} hover:bg-gray-200 p-2 rounded w-full`}>
               <AddPhotoAlternateIcon sx={{ color: '#00cc44' }} />
               <p className='ml-1'>Photo/video</p>
             </div>
-            <div className='flex  justify-center cursor-pointer hover:bg-gray-200 p-2 rounded w-full'>
+            <div className={`flex  justify-center cursor-pointer ${dark && 'hover:text-gray-800'} hover:bg-gray-200 p-2 rounded w-full`}>
               <LocalOfferIcon sx={{ color: '#0066ff' }} />
               <p className='ml-1'>Tag people</p>
             </div>
-            <div className='flex  justify-center cursor-pointer hover:bg-gray-200 p-2 rounded w-full'>
+            <div className={`flex  justify-center cursor-pointer ${dark && 'hover:text-gray-800'} hover:bg-gray-200 p-2 rounded w-full`}>
               <InsertEmoticonIcon sx={{ color: '#ffd633' }} />
               <p className='ml-1'>Feeling/activity</p>
             </div>
           </div>
         </div>
 
-        <div className='border rounded-lg bg-white p-3'>
+        <div className={`border rounded-lg ${dark ? 'text-white' : 'bg-white'} p-3 shadow-md shadow-purple-300`}>
           <div className='flex pb-3'>
             <img src={user} alt='User' className='w-12 h-12 rounded-full border' />
             <div className='ml-3'>
@@ -121,15 +123,15 @@ function Home() {
             />
           </div>
           <div className='grid grid-cols-3 pt-2'>
-            <div className='flex  justify-center cursor-pointer hover:bg-gray-200 p-2 rounded w-full'>
+            <div className={`flex justify-center cursor-pointer ${dark && 'hover:text-gray-800'} hover:bg-gray-200 p-2 rounded w-full`}>
               <ThumbUpOffAltIcon sx={{ color: 'gray' }} />
               <p className='ml-1'>Like</p>
             </div>
-            <div className='flex  justify-center cursor-pointer hover:bg-gray-200 p-2 rounded w-full'>
+            <div className={`flex justify-center cursor-pointer ${dark && 'hover:text-gray-800'} hover:bg-gray-200 p-2 rounded w-full`}>
               <CommentIcon sx={{ color: 'gray' }} />
               <p className='ml-1'>Comment</p>
             </div>
-            <div className='flex  justify-center cursor-pointer hover:bg-gray-200 p-2 rounded w-full'>
+            <div className={`flex justify-center cursor-pointer ${dark && 'hover:text-gray-800'} hover:bg-gray-200 p-2 rounded w-full`}>
               <ShareIcon sx={{ color: 'gray' }} />
               <p className='ml-1'>Share</p>
             </div>

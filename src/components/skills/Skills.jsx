@@ -5,7 +5,8 @@ import Familiar from "./Familier";
 import Interest from "./Interest";
 import Stack from "./Stack";
 
-function Skills() {
+function Skills(props) {
+  const {dark} = props;
   const [activeComponent, setActiveComponent] = useState("Expertise");
 
   const renderComponent = () => {
@@ -26,7 +27,7 @@ function Skills() {
   };
 
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-1 border rounded-lg bg-white">
+    <div className={`grid lg:grid-cols-3 md:grid-cols-1 border rounded-lg ${dark ? 'text-white' : 'bg-white'} shadow-md shadow-purple-300`}>
       {/* Sidebar */}
       <div className="lg:border-r-2 lg:border-b-0 md:border-b-2 sm:border-b-2 p-5">
         <p className="text-xl font-bold mb-3">Skills</p>

@@ -45,7 +45,8 @@ import Info2 from '../../assets/project ss/Info2.jpeg'
 import TU from '../../assets/project ss/TU.jpeg'
 import GG from '../../assets/project ss/GG.jpeg'
 
-function Projects() {
+function Projects(props) {
+  const {dark} = props;
   const projects = [
     {
       images: [SE1, SE2, SE3, SE4, SE5, SE6, SE7, SE8, SE9],
@@ -154,11 +155,11 @@ function Projects() {
   ]
 
   return (
-    <div className="border rounded-lg bg-white p-5">
+    <div className={`border rounded-lg ${dark ? 'text-white' : 'bg-white'} p-5 shadow-md shadow-purple-300`}>
       <p className="text-xl font-bold mb-3 border-b pb-3">Projects</p>
       <div className='grid grid-cols-1 gap-4'>
         {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+          <ProjectCard key={index} project={project} dark={dark} />
         ))}
       </div>
     </div>

@@ -4,7 +4,8 @@ import WorkAndEducation from "./WorkAndEducation";
 import PlacesLived from "./PlacesLived";
 import ContactAndBasicInfo from "./ContactAndBasicInfo"
 
-function About() {
+function About(props) {
+  const { dark } = props;
   const [activeComponent, setActiveComponent] = useState("Overview");
 
   const renderComponent = () => {
@@ -23,7 +24,7 @@ function About() {
   };
 
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-1 border rounded-lg bg-white">
+    <div className={`grid lg:grid-cols-3 md:grid-cols-1 border rounded-lg ${dark ? 'text-white' : 'bg-white'} shadow-md shadow-purple-300`}>
       {/* Sidebar */}
       <div className="lg:border-r-2 lg:border-b-0 md:border-b-2 sm:border-b-2 p-5">
         <p className="text-xl font-bold mb-3">About</p>

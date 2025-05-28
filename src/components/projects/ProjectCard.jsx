@@ -10,7 +10,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export default function ProjectCard(props) {
-  const { project } = props
+  const { project, dark } = props
 
   return (
     <Card sx={{ maxWidth: '100%', justifySelf: 'center' }}>
@@ -47,9 +47,9 @@ export default function ProjectCard(props) {
         >
           {project.images ? project.images.map((image, index) => (
             <div key={index}>
-              <img src={image} alt={`slide-${index}`} className="max-h-80 object-contain bg-gray-200" />
+              <img src={image} alt={`slide-${index}`} className='max-h-96 object-fill' />
             </div>
-          )) : <img src={Demo} alt='' className="max-h-80 object-contain bg-gray-200" />}
+          )) : <img src={Demo} alt='' className='max-h-80 object-fill' />}
         </Carousel>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
